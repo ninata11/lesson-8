@@ -1,0 +1,19 @@
+body {
+  background-color: #0a22f4;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+header img {
+  width: 95px;
+  height: 55px;
+}
+ul {
+  display: flex;
+  gap: 43px;
+}
+ul li a {
+  font-size: 16px;
+  color: #ffffff;
+}
