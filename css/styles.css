@@ -2,6 +2,10 @@
   font-family: helvetica;
   src: url(../css/fonts/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf);
 }
+@font-face {
+  font-family: helveticalight;
+  src: url(../css/fonts/HELVETICANEUELTGEO-45LIGHTS.ttf);
+}
 body {
   background-color: #0a22f4;
 }
@@ -37,4 +41,47 @@ ul li a {
 .contact a {
   color: #171717;
   margin: 0;
+}
+/* sectoon */
+.bigcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  max-width: 167px;
+  width: 100%;
+  height: 38px;
+}
+.container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box {
+  width: 463px;
+  height: 235px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box h4 {
+  color: #171717;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: helvetica;
+  align-items: center;
+}
+.box p {
+  color: #171717;
+  font-size: 16px;
+  font-family: helveticalight;
+}
+.bluebox {
+  max-width: 70px;
+  width: 100%;
+  height: 70px;
+  background-color: blue;
 }
