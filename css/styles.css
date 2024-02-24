@@ -6,12 +6,11 @@
   font-family: helveticalight;
   src: url(../css/fonts/HELVETICANEUELTGEO-45LIGHTS.ttf);
 }
-body {
-  background-color: #0a22f4;
-}
+
 header {
   display: flex;
   justify-content: space-around;
+  background-color: #0a22f4;
 }
 header img {
   width: 95px;
@@ -40,17 +39,21 @@ ul li a {
 }
 .contact a {
   color: #171717;
-  margin: 0;
 }
 /* sectoon */
 .bigcontainer {
   display: flex;
   flex-direction: column;
+  gap: 60px;
+  margin-top: 100px;
 }
 .header {
-  max-width: 167px;
-  width: 100%;
-  height: 38px;
+  margin-left: 240px;
+}
+.header h2 {
+  font-size: 32px;
+  color: #171717;
+  font-family: helveticalight;
 }
 .container {
   display: flex;
@@ -72,7 +75,6 @@ ul li a {
   font-size: 22px;
   font-weight: bold;
   font-family: helvetica;
-  align-items: center;
 }
 .box p {
   color: #171717;
@@ -84,4 +86,10 @@ ul li a {
   width: 100%;
   height: 70px;
   background-color: blue;
+}
+.whitebox {
+  max-width: 70px;
+  width: 100%;
+  height: 70px;
+  background-color: #f9f9f9;
 }
