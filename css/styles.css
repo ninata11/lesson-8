@@ -9,11 +9,28 @@ header img {
   width: 95px;
   height: 55px;
 }
+
 ul {
   display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
   gap: 43px;
 }
 ul li a {
   font-size: 16px;
   color: #ffffff;
+}
+.contact {
+  background-color: #ffffff;
+  width: 160px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact a {
+  position: absolute;
+  color: #171717;
+  margin: 0;
 }
